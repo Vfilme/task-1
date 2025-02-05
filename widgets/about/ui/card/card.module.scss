@@ -1,0 +1,30 @@
+.card {
+  background-image: url("../../assets/border.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  .bolt {
+    height: 26px;
+  }
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  .content {
+    display: grid;
+    gap: 16px;
+    .text {
+      display: grid;
+      gap: 8px;
+      .paragraph {
+        letter-spacing: -0.02em;
+        height: 88px;
+      }
+      .title {
+        line-height: 20px;
+        text-transform: uppercase;
+        letter-spacing: -0.04em;
+        font-size: 18px;
+      }
+    }
+  }
+}

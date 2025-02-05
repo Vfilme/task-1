@@ -1,0 +1,35 @@
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 660px));
+  gap: 40px;
+  .text {
+    display: grid;
+    .title {
+      text-transform: uppercase;
+      letter-spacing: -0.04em;
+      font-size: 80px;
+      width: 466px;
+    }
+    .aboutImg {
+      width: 100%;
+      align-self: end;
+      justify-self: center;
+      width: 496px;
+      height: 464px;
+    }
+  }
+  .description {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    .text {
+      text-transform: uppercase;
+      font-size: 24px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2, 240px);
+      gap: 56px;
+    }
+  }
+}
