@@ -1,0 +1,88 @@
+.heroSection {
+    height: 800px;
+    position: relative;
+
+    .heroText {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 244px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        .heroDate {
+            font-size: 24px;
+            letter-spacing: -0.06em;
+        }
+        .heroDescription {
+            font-size: 16px;
+            letter-spacing: -0.04em;
+            color: #b1b1b1;
+        }
+    }
+    .barcode {
+        display: flex;
+        justify-content: right;
+        align-items: flex-end;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .blobs, .ellipse, .star {
+        position: absolute;
+    }
+
+    .blobCenter {
+        top: 50%;
+        left: 50%;
+        transform: translate(-75%, -70%);
+    }
+
+    .blobBottomLeft {
+        top: 80%;
+        left: 20%;
+        transform: translate(-60%, -50%);
+    }
+
+    .blobTopRigth {
+        top: 20%;
+        left: 80%;
+        transform: translate(-25%, -45%);
+    }
+
+    .ellipse {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .stars {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+    .starRigth {
+        transform: translate(280px, -234px);
+    }
+    .starLeft {
+        transform: translate(-295px, 186px);
+    }
+
+
+    .heroTitleContainer {
+        max-width: 900px;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);      
+        .heroTitle {
+            font-size: 140px;
+            letter-spacing: -0.04em;
+            text-align: center;
+            z-index: 1;
+        }
+    }
+}
