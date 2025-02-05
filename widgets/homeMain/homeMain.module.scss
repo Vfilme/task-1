@@ -1,15 +1,15 @@
 .homeMain {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .shrift {
-    height: 24px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    span {
-        line-height: 20px;
-    }
+  height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  span {
+    line-height: 20px;
+  }
 }
