@@ -1,0 +1,18 @@
+.services {
+  display: grid;
+  gap: 40px;
+  .text {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    .title {
+      font-size: 80px;
+    }
+    .description {
+      font-size: 24px;
+    }
+  }
+}
