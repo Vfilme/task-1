@@ -1,5 +1,6 @@
 import { About } from "@/widgets/about";
 import { HomeMain } from "@/widgets/homeMain";
+import { Portfolio } from "@/widgets/portfolio";
 import { Services } from "@/widgets/services";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <HomeMain />
       <About />
       <Services />
+      <Portfolio />
     </>
   );
 }

@@ -1,0 +1,45 @@
+section.portfolio {
+  display: grid;
+  gap: 40px;
+  .text {
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    .title {
+      font-size: 80px;
+    }
+    .description {
+      font-size: 24px;
+    }
+  }
+  .hoverOn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    text-transform: uppercase;
+    .blob {
+      position: absolute;
+      left: 0;
+    }
+    .display {
+      font-size: 56px;
+      position: relative;
+      backdrop-filter: blur(24px);
+      box-shadow: inset -9px 10px 60px rgba(255, 255, 255, 0.25);
+      .text {
+        letter-spacing: -0.04em;
+        font-size: 56px;
+        white-space: pre-line;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-20deg);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+    }
+  }
+}

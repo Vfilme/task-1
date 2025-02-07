@@ -1,0 +1,21 @@
+.listItem {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+  padding: 52px 24px;
+  border-width: 1px;
+  border-color: rgba(241, 241, 241, 0.2);
+  border-block: 1px solid rgba(241, 241, 241, 0.2);
+  transition: 0.2s;
+  .rotate {
+    transform: rotate(180deg);
+  }
+  .text {
+    display: flex;
+    gap: 24px;
+  }
+  &:hover {
+    background-color: rgba(17, 17, 17, 1);
+  }
+}
