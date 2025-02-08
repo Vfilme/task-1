@@ -9,10 +9,10 @@
     text-transform: uppercase;
     letter-spacing: -0.04em;
     .title {
-      font-size: 80px;
+      font-size: clamp(32px, 5vw, 80px);
     }
     .description {
-      font-size: 24px;
+      font-size: clamp(14px, 2vw, 24px);
     }
   }
   .seeMore {

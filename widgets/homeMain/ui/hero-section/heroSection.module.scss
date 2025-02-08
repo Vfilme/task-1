@@ -6,7 +6,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 244px;
+    max-width: 244px;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -80,7 +80,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     .heroTitle {
-      font-size: 140px;
+      font-size: clamp(48px, 10vw, 140px);
       letter-spacing: -0.04em;
       text-align: center;
       z-index: 1;
