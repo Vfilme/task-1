@@ -1,0 +1,37 @@
+.card {
+  max-width: 387px;
+  width: 100%;
+  min-height: 143px;
+  height: auto;
+  background-image: url("../../assets/frame.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  letter-spacing: -0.04em;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  .border {
+    width: 100%;
+  }
+  .info {
+    width: 343px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .name {
+      text-transform: uppercase;
+    }
+    .role {
+      opacity: 0.6;
+      font-style: italic;
+      font-size: 14px;
+    }
+  }
+  .quote {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+  }
+}

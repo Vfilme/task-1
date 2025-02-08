@@ -1,0 +1,26 @@
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  .text {
+    text-align: center;
+    display: grid;
+    gap: 24px;
+    text-transform: uppercase;
+    letter-spacing: -0.04em;
+    .title {
+      font-size: 80px;
+    }
+    .description {
+      font-size: 24px;
+    }
+  }
+  .seeMore {
+    letter-spacing: -0.04em;
+    font-size: 24px;
+    text-transform: uppercase;
+    display: grid;
+    gap: 8px;
+    justify-items: center;
+  }
+}
