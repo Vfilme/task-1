@@ -1,0 +1,16 @@
+.links {
+  text-transform: uppercase;
+  letter-spacing: -0.04em;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  .nav {
+    max-width: 726px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .brand {
+    font-size: 32px;
+  }
+}

@@ -1,0 +1,20 @@
+.stars {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.bottomCenter {
+  transform: translate(-150px, 142px);
+}
+.topLeft {
+  transform: translate(-280px, -66px);
+}
+.bottomLeft {
+  transform: translate(-529px, 161px);
+}
+.topRightBig {
+  transform: translate(276px, -196px);
+}
+.topRightSmall {
+  transform: translate(300px, -100px);
+}

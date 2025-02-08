@@ -16,8 +16,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${styles.layout} ${instrumentSans.className}`}>
-        {children}
+      <body className={instrumentSans.className}>
+        <div className={styles.layout}>{children}</div>
       </body>
     </html>
   );

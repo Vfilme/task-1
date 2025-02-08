@@ -1,0 +1,41 @@
+.footer {
+  letter-spacing: -0.04em;
+  padding-top: 24px;
+  display: grid;
+  gap: 120px;
+  position: relative;
+  .blob,
+  .ellipses {
+    position: absolute;
+  }
+  .blob {
+    bottom: 0;
+    left: 40%;
+    transform: translate(-50%, 40px);
+  }
+  .ellipses {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .contact {
+    position: relative;
+    justify-self: center;
+    text-transform: uppercase;
+    max-width: 620px;
+    text-align: center;
+    grid: flex;
+    flex-direction: column;
+    gap: 16px;
+    .text {
+      font-weight: 600;
+      font-size: 72px;
+    }
+  }
+  .copyright {
+    letter-spacing: -0.02em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}
